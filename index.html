@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bf_base.css">
+  
+  <title>BuildFire Base CSS</title>
+</head>
+<body>
+  <section class="padded">
+
+    <section class="padded-xl padded-y">
+      <h1 class="section-title">Section Title H1</h1>
+      <h2>H2 Subtitle</h2>
+      <p class="margin-bottom--sm margin margin-y"> Paragraph - Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime libero hic asperiores magnam impedit pariatur, sapiente culpa doloribus ipsa labore maiores eum ea animi laudantium cum minus repudiandae qui facere sed obcaecati officia delectus id veritatis! Vero voluptatibus assumenda, reiciendis quia sequi fugiat sapiente tenetur quae aliquam tempore, consectetur eum.</p>
+      <p class="info-note">Note - Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi deserunt veritatis, totam rem nostrum? Quisquam ea consectetur ipsa doloribus!</p>
+      <p class="caption">This is a caption</p>
+    </section>
+
+    <section class="padded-xl padded-y">
+      <h2>Buttons</h2>
+      <button class="btn btn-primary">Button Primary</button>
+      <button class="btn btn-success">Button Success</button>
+      <button class="btn btn-success btn-add">Button Add</button>
+      <button class="btn btn-danger btn-outlined">Button Danger Secondary</button>
+      <button class="btn btn-secondary btn-outlined">Button Secondary</button>
+      <button class="btn btn-danger">Button Danger</button>
+    </section>
+
+    <section class="padded-xl padded-y">
+      <h2>Input Control</h2>
+      <div class="input-control side-label">
+        <label for="txt1">Field Label</label>
+        <input id="txt1" type="text" placeholder="Textfield">
+      </div>
+  
+      <div class="input-control side-label">
+        <label for="txt2">Required Field <span class="required">*</span></label>
+        <input id="txt2" type="text" placeholder="Textfield">
+      </div>
+  
+      <div class="input-control side-label">
+        <div class="label-wrap">
+          <label for="txt3">Required Field <span class="required">*</span><div class="tooltip">
+            <div class="tooltip-icon primary-bg">!</div>
+            <div class="tooltip-content">
+              Hello There, I'm a tooltip!
+            </div>
+          </div></label>
+        </div>
+        <input id="txt3" type="text" placeholder="Textfield">
+      </div>
+
+      <div class="input-control side-label">
+        <label for="">Image</label>
+        <div class="img-select-holder">
+          <button class="img-select">
+            <span class="delete-img">&times;</span>
+            <img src="https://images.unsplash.com/photo-1618581297437-a9b227a4e1f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="input-control side-label">
+        <label for="">Image .has-img</label>
+        <div class="img-select-holder">
+          <button class="img-select has-img">
+            <span class="delete-img">&times;</span>
+            <img src="https://images.unsplash.com/photo-1618581297437-a9b227a4e1f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="padded-xl padded-y">
+      <h2>Search Bar and Filters</h2>
+
+      <div class="search-bar-container">
+        <div class="search-bar">
+          <input type="text" placeholder="Search">
+          <div class="selected-filters">
+            <button class="btn-badge">Status:All</button>
+            <button class="btn-badge">15 Jan, 2021 - 15 Jun, 2021</button>
+            <a href="" class="caption">Clear 2 More</a>
+          </div>
+          <button class="btn btn-info"><div class="search-icon"></div></button>
+        </div>
+        <div class="filters-dropdown">
+          <h5>Filters</h5>
+          <div class="input-control side-label">
+            <label for="txt1">Field Label</label>
+            <input id="txt1" type="text" placeholder="Textfield">
+          </div>
+          <div class="input-control side-label input-control-2-col">
+            <label for="txt1">Date Range</label>
+            <div class="col">
+              <input type="date">
+            </div>
+            <label for="">To</label>
+            <div class="col">
+              <input type="date">
+            </div>
+          </div>
+          <div class="input-control side-label input-control-2-col">
+            <label for="txt1">Users that have</label>
+            <!-- <input id="txt1" type="text" placeholder="Textfield" class="col"> -->
+            <div class="flex col">
+              <select name="" id="">
+                <option value="">Have</option>
+                <option value="">Don't have</option>
+              </select>
+              <select name="" id="">
+                <option value="">All</option>
+                <option value="">Some</option>
+              </select>
+            </div>
+            <label for="">Of These</label>
+            <div class="col">
+              <input id="txt1" type="text" placeholder="Textfield">
+            </div>
+          </div>
+          <div class="flex">
+            <a href="" class="caption text-danger left-auto caption">Clear Filters</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padded-xl padded-y">
+      <h2>Empty State</h2>
+      <div class="empty-state">
+        <h4>Empty State, please add content</h4>
+      </div>
+    </section>
+
+  </section>
+</body>
+</html>
